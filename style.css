@@ -285,4 +285,10 @@ footer p {
 		line-height: 30px !important;
 		color: #fff;
 	}
+	section.sec1 h1 {
+	padding-top: 280px;
+	}
+	.images img {
+	width: 280px;
+	}
 }
