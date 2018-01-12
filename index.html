@@ -7,6 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="grid.css">
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="lightbox.min.css">
+		<script src="https://wchat.freshchat.com/js/widget.js"></script>
 		<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 		<script type="text/javascript">
@@ -24,6 +25,12 @@
 					$("nav ul").toggleClass("active")
 				})
 			})
+		</script>
+		<script>
+		  window.fcWidget.init({
+		    token: "517e4a7c-5557-4fa9-9992-0a7ea02b09ac",
+		    host: "https://wchat.freshchat.com"
+		  });
 		</script>
 	</head>
 	<body>
@@ -54,32 +61,35 @@
 		<!--OFERTA-->
 		<section class="oferta container">
 			<div class="start">
-				<h1>Lorem ipsum</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet sapien arcu. Nullam volutpat metus sapien, nec pellentesque nulla aliquam id. Sed consequat consequat nibh, quis placerat justo sagittis et.</p>
+				<h1>Oferta</h1>
+				<p>Każdego Klienta traktujemy indywidualnie i każdemu staramy się przekazać maksimum wiedzy oraz nauczyć praktycznych umiejętności potrzebnych w życiu zawodowym ale i prywatnym. Organizujemy szkolenia na najwyższym poziomie. Dobieramy najlepszych trenerów do realizacji powierzonych nam zadań. Gwarancja realizacji szkolenia – Nie odwołujemy szkoleń!</p>
 			</div>
 		</section>
 		<!--/OFERTA-->
 		<!--OFERTY-->
 		<section class="oferty container">
-			<div class="szkolenia col-4 col-m-12">
+			<div class="szkolenia col-4">
 				<i class="fa fa-laptop" aria-hidden="true"></i>
 				<h1>Materiały dla kursantów</h1>
 			</div>
-			<div class="kursy col-4 col-m-12">
+			<div class="kursy col-4">
 				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 				<h1>Kursy, Szkolenia i Warsztaty</h1>
 			</div>
-			<div class="warsztaty col-4 col-m-12">
+			<div class="warsztaty col-4">
 				<i class="fa fa-users" aria-hidden="true"></i>
 				<h1>Tłumaczenia</h1>
 			</div>
 		</section>
 		<!--/OFERTY-->
 		<!--WYNAJEM-->
-		<section class="wynajem">
-		<div class="w-tresc col-12 col-m-12">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor purus, commodo at tempor et, posuere quis dui. Donec imperdiet id felis porta congue. Nunc efficitur augue neque, quis imperdiet nibh tempor ut. Cras ac massa nunc. Sed elit ante, malesuada a lacus placerat, vulputate hendrerit sem. Suspendisse efficitur tellus efficitur felis feugiat, sed fermentum ipsum posuere.</p>
-		</div>
+		<section class="contact" id="become-part">
+			<div class="container flex-container">
+				<h1 class="heading">Masz pytania w sprawie <span>szkoleń</span>? Skontaktuj się z nami – chętnie poznamy Twoje oczekiwania i zaproponujemy korzystne rozwiązanie.</h1>
+				<div class="center">
+					<button>NAPISZ DO NAS</button>
+				</div>
+			</div>
 		</section>
 		<section class="galeria">
 			<div class="images">
@@ -92,9 +102,6 @@
 					<a href="images/image1.jpeg" data-lightbox="mygallery" data-title="Perfect - wynajem"><img src="images/image1.jpeg"></a>
 					<a href="images/image2.jpeg" data-lightbox="mygallery"><img src="images/image2.jpeg"></a>
 					<a href="images/image1.jpeg" data-lightbox="mygallery" data-title="Perfect - wynajem"><img src="images/image1.jpeg"></a>
-				</div>
-				<div class="button container">
-					<h1>Napisz do nas</h1>
 				</div>
 			</div>
 		</section>

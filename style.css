@@ -141,7 +141,60 @@ section.sec1 p {
 	transform: scale(1.1);
 	transition: 1s;
 }
-
+.contact {
+	background-color: #bec1c6;
+	min-height: 200px;
+}
+.contact .flex-container {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	min-height: 200px;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.contact .heading {
+	font-size: 2em;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+.contact .heading span {
+	font-weight: bold;
+}
+.contact button {
+	display: inline-block;
+	color: #fff;
+	background-color: inherit;
+	border: 2px solid #fff;
+	padding: 18px 60px;
+	background-image: -webkit-linear-gradient(45deg, #fff 50%, transparent 50%);
+	background-image: -o-linear-gradient(45deg, #fff 50%, transparent 50%);
+	background-image: linear-gradient(45deg, #fff 50%, transparent 50%);
+	background-position: 100% 0;
+	background-size: 300%;
+	border-radius: 30px;
+	font-size: 0.938em;
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-transition: .5s ease-out;
+	-o-transition: .5 ease-out;
+	transition: .5s ease-out;
+	margin: 20px auto;
+}
+.contact .center {
+	text-align: center;
+}
+.contact button:hover {
+	background-position: 0 100%;
+	color: #000;
+}
 /*WYNAJEM*/
 .w-tresc {
 	text-align: center;
@@ -342,5 +395,9 @@ footer p {
 	}
 	.footer {
 		display: none;
+	}
+	.contact .heading {
+		font-size: 1.5em;
+		color: #000;
 	}
 }
