@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+		<title>Marta Handzel</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="grid.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="lightbox.min.css">
+		<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<script type="text/javascript">
+			$(window).on('scroll', function(){
+				if($(window).scrollTop()){
+					$('nav').addClass('black');
+				}
+				else
+				{
+					$('nav').removeClass('black')
+				}
+			})
+			$(document).ready(function(){
+				$(".menu h4").click(function(){
+					$("nav ul").toggleClass("active")
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="responsive-bar">
+			<div class="logo">
+				<img src="images/logo.png">
+			</div>
+			<div class="menu">
+				<h4>Menu</h4>
+			</div>
+		</div>
+		<nav>
+			<div class="logo">
+				<img src="images/logo.png">
+			</div>
+			<ul>
+				<li><a href="#" class="active">Start</a></li>
+				<li><a href="#">Oferta</a></li>
+				<li><a href="#">Wynajem sali</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+		<section class="sec1">
+			<h1>Perfect</h1>
+			<p>Szkolenia, Kursy, Warsztaty</p>
+			<div class="arrow col-12">&#8681;</div>
+		</section>
+		<!--OFERTA-->
+		<section class="oferta container">
+			<div class="start">
+				<h1>Lorem ipsum</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet sapien arcu. Nullam volutpat metus sapien, nec pellentesque nulla aliquam id. Sed consequat consequat nibh, quis placerat justo sagittis et.</p>
+			</div>
+		</section>
+		<!--/OFERTA-->
+		<!--OFERTY-->
+		<section class="oferty container">
+			<div class="szkolenia col-4">
+				<i class="fa fa-laptop" aria-hidden="true"></i>
+				<h1>Szkolenia</h1>
+			</div>
+			<div class="kursy col-4">
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+				<h1>Kursy</h1>
+			</div>
+			<div class="warsztaty col-4">
+				<i class="fa fa-users" aria-hidden="true"></i>
+				<h1>Warsztaty</h1>
+			</div>
+		</section>
+		<!--/OFERTY-->
+		<!--WYNAJEM-->
+		<section class="wynajem">
+		<div class="w-tresc col-12 col-m-12">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dolor purus, commodo at tempor et, posuere quis dui. Donec imperdiet id felis porta congue. Nunc efficitur augue neque, quis imperdiet nibh tempor ut. Cras ac massa nunc. Sed elit ante, malesuada a lacus placerat, vulputate hendrerit sem. Suspendisse efficitur tellus efficitur felis feugiat, sed fermentum ipsum posuere.</p>
+		</div>
+		</section>
+		<section class="galeria">
+			<div class="w_title container">
+				<h1>Wynajem Sali</h1>
+			</div>
+			<div class="images">
+				<div class="image1">
+					<a href="images/image1.jpeg" data-lightbox="mygallery" data-title="Perfect - wynajem"><img src="images/image1.jpeg"></a>
+					<a href="images/image2.jpeg" data-lightbox="mygallery"><img src="images/image2.jpeg"></a>
+					<a href="images/image3.jpeg" data-lightbox="mygallery"><img src="images/image3.jpeg"></a>
+					<a href="images/image4.jpeg" data-lightbox="mygallery"><img src="images/image4.jpeg"></a>
+					<a href="images/image4.jpeg" data-lightbox="mygallery"><img src="images/image4.jpeg"></a>
+					<a href="images/image1.jpeg" data-lightbox="mygallery" data-title="Perfect - wynajem"><img src="images/image1.jpeg"></a>
+					<a href="images/image2.jpeg" data-lightbox="mygallery"><img src="images/image2.jpeg"></a>
+					<a href="images/image1.jpeg" data-lightbox="mygallery" data-title="Perfect - wynajem"><img src="images/image1.jpeg"></a>
+					<a href="images/image2.jpeg" data-lightbox="mygallery"><img src="images/image2.jpeg"></a>
+					<a href="images/image4.jpeg" data-lightbox="mygallery"><img src="images/image4.jpeg"></a>
+				</div>
+				<div class="button container">
+					<h1>Napisz do nas</h1>
+				</div>
+			</div>
+		</section>
+		<section class="mapa">
+			<div id="map"></div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="col-4 col-m-4 footer-title location">
+					<h1>Napisz do nas</h1>
+					<p>handzel.marta@gmail.com</p>
+					<p>lub</p>
+					<p>665 759 112</p>
+			</div>
+			<div class="col-4 col-m-4 footer-title location">
+				<h1>Znajdziesz nas na</h1>
+			</div>
+			<div class="col-4 col-m-4 footer-title location">
+				<h1>Adres</h1>
+				<p>Dworcowa 5/2B</p>
+				<p>64-410 Sieraków</p>
+			</div>
+		</footer>
+		<footer class="lower-footer">
+		<p>Copyright © 2017 <span>Made by Krzysztof Zielonka</span></p>
+		</footer>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXLJQPd0vjcaKx-tV5VCHjXz6awW2GkvE&callback=initMap"></script>
+	<script src="js/script.js"></script>
+	</body>
+</html>
