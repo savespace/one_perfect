@@ -149,7 +149,7 @@ section.sec1 p {
 		padding-top: 60px;
 		margin: 50px;
 	}
-.w_title h1 {
+.w_title {
 	padding-bottom: 50px;
 }
 .galeria {
@@ -177,7 +177,7 @@ section.sec1 p {
 	height: 80px;
 	background-color: #f00;
 	border-radius: 5px;
-	margin-top: 60px;
+	margin: 0 auto;
 	cursor: pointer;
 }
 .button h1 {
@@ -185,10 +185,12 @@ section.sec1 p {
 	font-size: 20px;
 	text-align: center;
 	line-height: 80px;
+	margin: 50px;
 }
 #map {
 	height: 500px;
 	width: 100%;
+	margin: 50px 0 0 0;
 }
 footer {
 	background: #555759;
@@ -286,9 +288,45 @@ footer p {
 		color: #fff;
 	}
 	section.sec1 h1 {
-	padding-top: 280px;
+	padding-top: 400px;
 	}
 	.images img {
 	width: 280px;
+	}
+	.w-tresc {
+	text-align: center;
+	font-size: 16px;
+}
+	.w-tresc p {
+		padding-top: 10px;
+		margin: 5px;
+	}
+	.oferta {
+	padding: 10px;
+	text-align: center;
+	}
+	.oferta h1 {
+		font-size: 24px;
+	}
+	.oferta p {
+		font-size: 18px;
+	}
+	.oferty i {
+		font-size: 80px;
+	}
+	.kursy:hover {
+		transform: none;
+		transition: none;
+	}
+	.szkolenia:hover {
+		transform: none;
+		transition: none;
+	}
+	.warsztaty:hover {
+		transform: none;
+		transition: none;
+	}
+	.footer {
+		display: none;
 	}
 }
