@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&subset=latin-ext');
 
 * {
 	box-sizing: border-box;
@@ -80,17 +82,18 @@ section.sec1 {
 }
 section.sec1 h1 {
 	margin: 0;
-	padding-top: 400px;
+	padding-top: 300px;
 	text-align: center;
-	font-size: 62px;
+	font-size: 80px;
 	color: #fff;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Playfair Display SC', serif;
+	text-shadow: 1px 1px #000;
 }
 section.sec1 p {
 	color: #fff;
 	text-align: center;
-	font-size: 24px;
-	font-family: 'Raleway', sans-serif;
+	font-size: 26px;
+	font-family: 'Dancing Script', cursive;
 }
 
 .arrow {
@@ -119,6 +122,7 @@ section.sec1 p {
 .oferty {
 	text-align: center;
 	height: 200px;
+	margin-bottom: 60px;
 }
 .oferty i {
 	font-size: 120px;
@@ -144,6 +148,7 @@ section.sec1 p {
 .contact {
 	background-color: #bec1c6;
 	min-height: 200px;
+	margin-bottom: 60px;
 }
 .contact .flex-container {
 	-webkit-box-pack: center;
@@ -343,16 +348,18 @@ footer p {
 		color: #fff;
 	}
 	section.sec1 {
-		height: 500px;
+		height: 300px;
 	}
 	section.sec1 h1 {
-	padding-top: 120px;
+	padding-top: 80px;
 	text-shadow: 2px 2px #000;
 	font-size: 120px;
 	}
+	section.sec1 .arrow {
+		display: none;
+	}
 	section.sec1 p {
-		text-shadow: 2px 2px #000;
-		font-size: 30px;
+		display: none;
 	}
 	.images img {
 	width: 280px;
