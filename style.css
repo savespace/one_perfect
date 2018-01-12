@@ -289,8 +289,17 @@ footer p {
 		line-height: 30px !important;
 		color: #fff;
 	}
+	section.sec1 {
+		height: 500px;
+	}
 	section.sec1 h1 {
-	padding-top: 180px;
+	padding-top: 120px;
+	text-shadow: 2px 2px #000;
+	font-size: 120px;
+	}
+	section.sec1 p {
+		text-shadow: 2px 2px #000;
+		font-size: 30px;
 	}
 	.images img {
 	width: 280px;
@@ -317,7 +326,7 @@ footer p {
 		font-size: 18px;
 	}
 	.oferty i {
-		font-size: 80px;
+		font-size: 100px;
 	}
 	.kursy:hover {
 		transform: none;
