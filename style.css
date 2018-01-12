@@ -75,6 +75,8 @@ section.sec1 {
 	height: 100vh;
 	background: url("images/head.jpeg");
 	background-size: cover;
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
 }
 section.sec1 h1 {
 	margin: 0;
@@ -162,7 +164,7 @@ section.sec1 p {
 	margin: 10px 50px;
 }
 .images img {
-	width: 320px;
+	width: 420px;
 	padding: 5px;
 	filter: grayscale(100%);
 	transition: 1s;
