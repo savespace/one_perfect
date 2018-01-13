@@ -195,6 +195,7 @@ section.sec1 p {
 }
 .contact .center {
 	text-align: center;
+	margin: -30px;
 }
 .contact button:hover {
 	background-position: 0 100%;
@@ -231,6 +232,27 @@ section.sec1 p {
 	filter: grayscale(0);
 	cursor: pointer;
 	transform: scale(1.1);
+}
+.img-circle {
+    border-radius: 50%;
+}
+.local {
+	text-align: center;
+	padding: 20px;
+}
+.img_m {
+	filter: grayscale(100%);
+	transition: 1s;
+}
+.img_m img {
+	height: 160px;
+}
+.img_m:hover {
+	filter: grayscale(0);
+	transition: 1s;
+}
+.img_news {
+	font-size: 20px;
 }
 .button {
 	width: 300px;
@@ -353,7 +375,7 @@ footer p {
 	section.sec1 h1 {
 	padding-top: 80px;
 	text-shadow: 2px 2px #000;
-	font-size: 120px;
+	font-size: 80px;
 	}
 	section.sec1 .arrow {
 		display: none;
